@@ -1,0 +1,287 @@
+*
+{
+    margin:0;
+}
+.navigation
+{  
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    background-color: aqua;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation ul li{
+    margin-top: 12px;
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+
+}
+.navigation button
+{
+    background-color:red ;
+    border: 1px solid black;
+    padding: 4px 8px;
+    margin-right: 4px;
+    border-radius: 2px;
+}
+.navigation button:hover
+{
+    background-color: Blue ;
+    border: 1px solid black;
+    padding: 4px 8px;
+    margin-right: 4px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.section-1
+{  
+    height: 80vh;
+    width: 100%;
+    Display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:18px;
+    
+    background: url('https://duttrohan0302.github.io/accio-batch11/dec16th_bootstrap_UI/images/image2.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+}
+.section-1 div
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 8px;
+}
+.section-1 div .button-1
+{
+    border: 4px;
+    background-color: aquamarine;
+    border-radius: 2px;
+
+}
+.section-1 div .button-1:hover
+{
+    border: 4px;
+    background-color: blue;
+    border-radius: 2px;
+   cursor: pointer;
+}
+.section-1 div .button-2
+{
+    border: 4px;
+    background-color: Black;
+    color: white;
+    border-radius: 2px;
+
+}
+.section-1 div .button-2:hover
+{
+    border: 4px;
+    background-color:white;
+    color: black;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.section-2
+{  
+    height:70vh;
+    width: 100%;
+    Display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:18px; 
+    
+   
+}
+.section-2 h1
+{  
+    margin-top: 8px;
+  text-align: center;
+}
+.section-2 p
+{  
+    
+  text-align: center;
+  color: red;
+}
+.section-2 .container-2
+{ 
+height:290px ;
+width: 200px;
+display: flex;
+flex-direction:row;
+align-items: center;
+justify-content: center;
+gap: 20px;
+}
+.section-2 .container-2 img
+{ 
+    height: 150px;
+    width: 200px;
+}
+.section-2 .container-2 .container-3
+{ 
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.section-3 {
+    height: 80vh;
+    padding: 50px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url('https://duttrohan0302.github.io/accio-batch11/dec16th_bootstrap_UI/images/image3.jpg');
+    /* Parallex effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section-3 h1 {
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+.section-3 > p {
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+.section-3 button {
+    margin-top: 20px;
+    padding: 10px 15px;
+    border-radius: 4px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+.section-3 button:hover {
+    margin-top: 20px;
+    padding: 10px 15px;
+    border-radius: 4px;
+    border: none;
+    background-color: blue;
+}
+.section-4{
+    height: 80vh;
+    padding: 50px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section-4 .section-4-cards{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.section-4 .section-4-card {
+    margin-top: 30px;
+    width: 300px;
+    display: flex;
+    gap: 10px;
+}
+
+.section-4 .section-4-card svg{
+    width: 30px;
+    color: rgb(255, 158, 39);
+}
+.section-5{
+    height: 60vh;
+    padding: 50px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: rgb(39, 39, 39);
+}
+.section-5 .section-5-left {
+    width: 50%;
+}
+.section-5 .section-5-left img {
+    width: 100%;
+}
+.section-5 .section-5-right {
+    width: 50%;
+}
+.section-5 .section-5-right h1 {
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.section-5 .section-5-right button {
+    margin-top: 20px;;
+    padding: 10px 15px;
+    border-radius: 4px;
+    border: none;
+    background-color: white;
+}
+.section-5 .section-5-right button:hover {
+    box-shadow: 0 0 5px 2px #ccc;
+    color: grey;
+    cursor: pointer;
+}
+.section-5 .section-5-right p {
+    margin-top: 20px;
+    font-size: 20px;
+    color: rgb(190, 190, 190);
+}
+
+/* SECTION 6 */
+.section-6 
+{
+    height: 30vh;
+    padding: 50px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    gap: 20px;
+}
+.section-6 h1 
+{
+    font-size: 50px;
+    color: #000;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+.section-6 .last button
+{
+   background-color: orange;
+   border-radius: 4px;
+   cursor: pointer;
+}
+
+.section-6 .last-1
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+ 
+ }
